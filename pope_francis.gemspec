@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = PopeFrancis::VERSION
   gem.authors       = ["Jeff Felchner"]
   gem.email         = ["accounts+git@thekompanee.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{ig-pay atin-lay anslator-tray}
+  gem.summary       = %q{The one stop shop for all your Pig Latin needs.}
+  gem.homepage      = "https://github.com/jfelchner/pope_francis"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
