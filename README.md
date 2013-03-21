@@ -42,6 +42,25 @@ Forking and Hacking
 
     `require pope_francis`
 
+REPL
+--------------------------------
+
+I have created a simple REPL (Read-Evaluate-Print-Loop) that you can use while
+you're hacking on the gem to test it out.
+
+Change into the directory of the gem that you cloned down from Github and then
+run:
+
+    chmod 755 ./bin/repl.rb
+
+Then you can run the REPL by typing:
+
+    ./bin/repl.rb
+
+Anything you type will be translated to Pig Latin once you press Enter.
+
+You can exit the REPL by pressing Control-C.
+
 Installation
 --------------------------------
 
